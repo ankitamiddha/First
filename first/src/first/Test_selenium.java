@@ -18,6 +18,7 @@ public class Test_selenium {
 		driver2 = new FirefoxDriver();
 		driver1.navigate().to("https://amazon.com");
 		driver2.navigate().to("https://flipkart.com");
+		driver2.close();
 		
 		
 		
